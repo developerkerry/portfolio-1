@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kerrensky Otieno — Portfolio</title>
+  <meta name="description" content="Portfolio of Kerrensky Otieno, Full-Stack Developer based in Nairobi, Kenya." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Kerrensky<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#blog">Blog</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Kerrensky Otieno</h1>
+        <h2 class="hero-title">Full-Stack Developer</h2>
+        <p class="hero-bio">Passionate Full-Stack Developer based in Nairobi, Kenya. I build modern, scalable, and user-friendly web applications. Open to work and freelance opportunities.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+          <a href="#" class="btn btn-outline" download>Download CV</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/kerrensky" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://linkedin.com/in/kerrensky" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:kerrensky.dev@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-placeholder">KO</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-placeholder large">Your Photo</div>
+        </div>
+        <div class="about-text">
+          <p>I am a passionate Full-Stack Developer based in Nairobi, Kenya. With a strong foundation in both frontend and backend technologies, I enjoy building end-to-end web applications that solve real-world problems.</p>
+          <p>I am driven by curiosity and a desire to create clean, efficient, and user-centric digital experiences. Whether it's crafting responsive interfaces or designing robust APIs, I strive for excellence in every project.</p>
+          <div class="about-details">
+            <div class="detail"><span>Name:</span> Kerrensky Otieno</div>
+            <div class="detail"><span>Email:</span> kerrensky.dev@gmail.com</div>
+            <div class="detail"><span>Phone:</span> +254795415864</div>
+            <div class="detail"><span>Location:</span> Nairobi, Kenya</div>
+            <div class="detail"><span>Status:</span> Open to Work &amp; Freelance</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <div class="skill-items">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools &amp; DevOps</h3>
+          <div class="skill-items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">A selection of projects I've built. Click to view details.</p>
+      <div class="projects-grid">
+        <!-- Project Card Template -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="image-placeholder">Project Screenshot</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" target="_blank">Live Demo</a>
+              <a href="#" class="project-link" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Project Name One</h3>
+            <p>A brief description of this project. What it does, who it's for, and the problem it solves.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <div class="image-placeholder">Project Screenshot</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" target="_blank">Live Demo</a>
+              <a href="#" class="project-link" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Project Name Two</h3>
+            <p>A brief description of this project. What it does, who it's for, and the problem it solves.</p>
+            <div class="project-tags">
+              <span>Next.js</span><span>Tailwind</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <div class="image-placeholder">Project Screenshot</div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" target="_blank">Live Demo</a>
+              <a href="#" class="project-link" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Project Name Three</h3>
+            <p>A brief description of this project. What it does, who it's for, and the problem it solves.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Django</span><span>REST API</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Job Title</h3>
+            <span class="timeline-company">Company Name</span>
+            <span class="timeline-date">Jan 2023 — Present</span>
+            <ul>
+              <li>Key responsibility or achievement in this role.</li>
+              <li>Another key responsibility or project delivered.</li>
+              <li>Technologies used and impact delivered.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Previous Job Title</h3>
+            <span class="timeline-company">Previous Company</span>
+            <span class="timeline-date">Jun 2021 — Dec 2022</span>
+            <ul>
+              <li>Key responsibility or achievement in this role.</li>
+              <li>Another key responsibility or project delivered.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <div class="edu-icon">🎓</div>
+          <h3>Degree Name</h3>
+          <p class="edu-institution">Institution Name</p>
+          <p class="edu-year">2019 — 2023</p>
+          <p class="edu-desc">Brief description of your studies, major, or relevant coursework.</p>
+        </div>
+        <div class="education-card">
+          <div class="edu-icon">📜</div>
+          <h3>Certification Name</h3>
+          <p class="edu-institution">Issuing Organization</p>
+          <p class="edu-year">2023</p>
+          <p class="edu-desc">Brief description of the certification.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Blog</h2>
+      <p class="section-subtitle">Thoughts, tutorials, and insights.</p>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="image-placeholder">Blog Image</div>
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">Nov 2026</span>
+            <h3>Blog Post Title One</h3>
+            <p>A short excerpt or summary of the blog post content.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="image-placeholder">Blog Image</div>
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">Oct 2026</span>
+            <h3>Blog Post Title Two</h3>
+            <p>A short excerpt or summary of the blog post content.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="image-placeholder">Blog Image</div>
+          </div>
+          <div class="blog-info">
+            <span class="blog-date">Sep 2026</span>
+            <h3>Blog Post Title Three</h3>
+            <p>A short excerpt or summary of the blog post content.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Kerrensky is an exceptional developer who delivers high-quality work on time. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="avatar-placeholder small">JD</div>
+            <div>
+              <h4>John Doe</h4>
+              <span>CEO, Example Corp</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Working with Kerrensky was a great experience. His attention to detail and technical skills are outstanding."</p>
+          <div class="testimonial-author">
+            <div class="avatar-placeholder small">JS</div>
+            <div>
+              <h4>Jane Smith</h4>
+              <span>Product Manager, Tech Inc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">Let's work together! Feel free to reach out.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:kerrensky.dev@gmail.com">kerrensky.dev@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📱</span>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+254795415864">+254 795 415 864</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <h4>Location</h4>
+              <p>Nairobi, Kenya</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/kerrensky" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/kerrensky" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Kerrensky Otieno. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/kerrensky" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/kerrensky" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:kerrensky.dev@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
